@@ -432,3 +432,15 @@ body {
 div {
     border: 1px solid Chocolate;
 }
+
+.top-navigation .logo {
+  height: 4.375rem;
+}
+
+.top-navigation {
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  border-bottom: 1px solid #DDD;
+  z-index: 9999;
+}
