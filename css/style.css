@@ -428,6 +428,7 @@ th {
 
 body {
     background-color: LightGray;
+    -webkit-font-smoothing: antialiased;
 }
 div {
     border: 1px solid Chocolate;
@@ -468,17 +469,27 @@ nav {
   margin-top: 1.7em;
 }
 
-ul {
+.content-link {
   list-style: none;
   display: block;
 }
 
 .top-navigation .content-link li.active {
   color: #4c5058;
-  font-weight: 500;
+  font-weight: 600;
 }
 
-.top-navigation .content-link li {
+.top-navigation .content-link li{
   display: inline-block;
   margin-left: 1.563em;
+  font-family: 'Roboto', sans-serif; 
+  font-size: 16px; 
+  color: #838994; 
+  letter-spacing: 0.03em;
+}
+
+li:hover{
+  text-decoration: underline;
+  text-decoration-color: #838994;
+  cursor: pointer;
 }
