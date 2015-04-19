@@ -512,13 +512,6 @@ li:hover{
   overflow: auto;
 }
 
-.content {
-  width: 60%;
-  padding: 0 0.938rem;
-  margin: 0 auto;
-  min-width: 37.5rem;
-}
-
 h1, h3 {
   color: white;
   font-family: "Roboto", sans-serif;
@@ -554,6 +547,10 @@ button {
   padding: 1rem 1.5rem;
   color: white;
   font-size: 1.125rem;
+}
+
+button:hover {
+  background-color: #ee7621;
 }
 
 
