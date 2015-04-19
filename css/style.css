@@ -469,6 +469,7 @@ nav {
   padding: 0 0.938em;
   margin: 0 auto;
   min-width: 37.5em;
+  text-align: center;
 }
 
 .top-navigation .content-link {
@@ -497,7 +498,7 @@ nav {
   letter-spacing: 0.03em;
 }
 
-li:hover{
+nav li:hover{
   text-decoration: underline;
   text-decoration-color: #838994;
   cursor: pointer;
@@ -551,6 +552,39 @@ button {
 
 button:hover {
   background-color: #ee7621;
+}
+.cases {
+  background-color: white;
+  overflow: hidden;
+  padding-bottom: 5rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.cases .content {
+  margin-top: 7.875rem;
+}
+
+.devices {
+  list-style: none;
+  display: inline-block;
+}
+
+.cases .devices > li {
+  width: 33.33333%;
+  float: left;
+}
+
+.cases h2 {
+  font-size: 2.72rem;
+  margin: 1.625rem 0 3.125rem;
+  font-weight: 300;
+}
+
+.caption h3 {
+  color: black;
+  font-weight: 400;
+  font-size: 1.563rem;
+  margin: 2.5rem 0px 1.875rem;
 }
 
 
