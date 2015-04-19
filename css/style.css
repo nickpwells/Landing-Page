@@ -446,6 +446,7 @@ div {
 /*Navigation Formatting */
 nav {
   display: block;
+  position: fixed;
 }
 
 .top-navigation .logo {
