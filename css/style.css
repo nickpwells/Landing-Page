@@ -566,6 +566,7 @@ button:hover {
 .devices {
   list-style: none;
   display: inline-block;
+  padding: 0;
 }
 
 .cases .devices > li {
@@ -625,14 +626,6 @@ h5 {
   font-size: .9rem;
   font-weight: 300;
   color: #838994;
-}
-
-.fa {
-  display: inline-block;
-  font: normal normal normal 14px/1 FontAwesome;
-  font-size: inherit;
-  text-rendering: auto;
-  transform: translate(0,0);
 }
 
 
